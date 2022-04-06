@@ -16,6 +16,7 @@
 #     - Defina o local onde o script vai montar a partição a partir da VDI (.vdi)
 #     - Execute "mount_minix.sh modprobe" para ativar o módulo do kernel com as configurações corretas
 #     - Use "mount_minix.sh m" para montar (transformar a VDI numa partição da sua máquina)
+#     - Acesse a partição no caminho especificado por "mountpoint" e copie os arquivos que desejar para dentro dela
 #     - Use "mount_minix.sh u" para desmontar (converter a partição para .vdi)
 
 minix_vdi="/home/lucas/VirtualBox VMs/Minix3/Minix3.vdi"
